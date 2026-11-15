@@ -1,0 +1,3 @@
+Déposez ici vos attestations (PDF, PNG ou JPG) avec EXACTEMENT les noms indiqués dans src/data.js
+(champ "doc"). Le bouton « Voir / Télécharger » n'apparaît que si le fichier existe.
+Photos / logos des formations : dossier public/formations/ (champ "image").
