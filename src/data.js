@@ -39,7 +39,7 @@ export const experience = [
     }
   },
   {
-    doc: '/attestations/att_stage_fullstack_web.pdg', title: L('Stagiaire développeur web full stack (stage de Master)', 'Full stack web developer intern (Master’s)'), place: 'ESTIN · Béjaïa, Algérie', period: L('Janvier – juin 2023', 'Jan – Jun 2023'),
+    doc: '/attestations/Att_stage_fin_etudes.pdf', title: L('Stagiaire développeur web full stack (stage de Master)', 'Full stack web developer intern (Master’s)'), place: 'ESTIN · Béjaïa, Algérie', period: L('Janvier – juin 2023', 'Jan – Jun 2023'),
     bullets: {
       fr: ['Développement d’un module back-end avec Django (base de données, vues, utilisateurs) et d’interfaces front-end responsives en HTML5, CSS3, JavaScript et Bootstrap, intégrés à l’architecture existante.'],
       en: ['Built a Django back-end module (database, views, users) and responsive front-end interfaces in HTML5, CSS3, JavaScript and Bootstrap, integrated into the existing architecture.']
@@ -96,17 +96,67 @@ export const projects = [
   },
 ]
 export const certifications = [
-  { name: L('Développement Full Stack Web', 'Full Stack Web Development'), org: 'BIGNOVA, Béjaïa · 2024', topics: 'React.js, Node.js, Express.js, Redux, MongoDB, PostgreSQL, Git/GitHub', doc: '/attestations/att_formation_fullstack_web.pdf' },
-  { name: L('Développeur Web Java EE', 'Java EE Web Developer'), org: 'Institut Amis de JAVA (ATS), Béjaïa · 2024', topics: 'Servlets, JSP, JSTL, Spring Boot, Thymeleaf, MySQL', doc: '/attestations/att_jee.pdf' },
-  { name: L('Développeur Python', 'Python Developer'), org: 'Institut Amis de JAVA (ATS), Béjaïa · 2024', topics: L('Bases de Python, applications bureau, Django, MySQL', 'Python basics, desktop apps, Django, MySQL'), doc: '/attestations/att_dev_python.pdf' },
-  { name: L('Administrateur Java', 'Java Administrator'), org: 'Béjaïa · 2024', doc: '/attestations/att_java_admin.pdf' },
-  // { name: L('Maintenance informatique', 'IT Maintenance'), org: L('Ligue des Activités Scientifiques et Techniques des Jeunes, Béjaïa · 2024 · Diplôme d’honneur', 'Youth Science & Technology Activities League, Béjaïa · 2024 · Honorary diploma'), topics: L('Diagnostic et dépannage, assemblage de PC, BIOS, installation de Windows, partitionnement, réseaux, sécurité informatique', 'Diagnostics and repair, PC assembly, BIOS, Windows installation, partitioning, networking, computer security'), doc: '/attestations/attestation-exemple.jpg' },
-  { name: L('Développeur mobile', 'Mobile Developer'), org: 'Institut Amis de JAVA (ATS), Béjaïa · 2023', topics: L('Programmation Android, back-end Java, front-end XML, SQLite', 'Android programming, Java back-end, XML front-end, SQLite'), doc: '/attestations/att_dev_mobile.pdf' },
-  { name: L('Java Développeur', 'Java Developer'), org: 'Béjaïa · 2021', doc: '/attestations/att_java_dev.pdf' },
-  // { name: 'Infographie', org: 'Institut Amis de JAVA (ATS), Béjaïa · 2021', topics: L('Photoshop, InDesign, Illustrator, maquettes Figma et Adobe XD', 'Photoshop, InDesign, Illustrator, Figma and Adobe XD mockups'), doc: '/attestations/attestation-exemple.jpg' },
-  { name: L('Créateur de sites web', 'Website Creator'), org: 'Institut Amis de JAVA (ATS), Béjaïa · 2021', topics: L('HTML5, CSS3, JavaScript, Bootstrap, PHP, MySQL, hébergement du site final', 'HTML5, CSS3, JavaScript, Bootstrap, PHP, MySQL, hosting of the final site'), doc: '/attestations/att_creation_site_web.pdf' },
-  { name: 'Machine Learning Crash Course', org: 'Google for Developers', topics: L('Régression, classification, réseaux de neurones, embeddings, LLMs, ML en production, AutoML', 'Regression, classification, neural networks, embeddings, LLMs, production ML, AutoML'), doc: '/attestations/attestation-exemple.jpg' },
-]
+  {
+    name: L('Développement Full Stack Web', 'Full Stack Web Development'),
+    org: 'BIGNOVA, Béjaïa · 2024',
+    topics: 'React.js, Node.js, Express.js, Redux, MongoDB, PostgreSQL, Git/GitHub',
+    doc: '/attestations/att_formation_fullstack_web.pdf'
+  },
+  {
+    name: L('Développeur Web Java EE', 'Java EE Web Developer'),
+    org: 'Institut Amis de JAVA (ATS), Béjaïa · 2024',
+    topics: 'Java EE, Servlets, JSP, JSTL, Spring Boot, Thymeleaf, MySQL, MVC',
+    doc: '/attestations/att_jee.pdf'
+  },
+  {
+    name: L('Développeur Python', 'Python Developer'),
+    org: 'Institut Amis de JAVA (ATS), Béjaïa · 2024',
+    topics: L(
+      'Syntaxe et fondamentaux Python, programmation orientée objet, applications de bureau, Django, MySQL',
+      'Python syntax and fundamentals, object-oriented programming, desktop applications, Django, MySQL'
+    ),
+    doc: '/attestations/att_dev_python.pdf'
+  },
+  {
+    name: L('Administrateur Java', 'Java Administrator'),
+    org: 'Béjaïa · 2024',
+    topics: 'Java, programmation orientée objet (POO), gestion des classes et objets, exceptions, collections, JDBC',
+    doc: '/attestations/att_java_admin.pdf'
+  },
+  {
+    name: L('Développeur mobile', 'Mobile Developer'),
+    org: 'Institut Amis de JAVA (ATS), Béjaïa · 2023',
+    topics: L(
+      'Développement Android, programmation Java, interfaces XML, SQLite, gestion des bases de données mobiles',
+      'Android development, Java programming, XML interfaces, SQLite, mobile database management'
+    ),
+    doc: '/attestations/att_dev_mobile.pdf'
+  },
+  {
+    name: L('Java Développeur', 'Java Developer'),
+    org: 'Béjaïa · 2021',
+    topics: 'Java, programmation orientée objet (POO), structures de données, algorithmes, gestion des exceptions',
+    doc: '/attestations/att_java_dev.pdf'
+  },
+  {
+    name: L('Créateur de sites web', 'Website Creator'),
+    org: 'Institut Amis de JAVA (ATS), Béjaïa · 2021',
+    topics: L(
+      'HTML5, CSS3, JavaScript, Bootstrap, PHP, MySQL, intégration web, hébergement et mise en ligne',
+      'HTML5, CSS3, JavaScript, Bootstrap, PHP, MySQL, web integration, hosting and deployment'
+    ),
+    doc: '/attestations/att_creation_site_web.pdf'
+  },
+  {
+    name: 'Machine Learning Crash Course',
+    org: 'Google for Developers',
+    topics: L(
+      'Régression, classification, réseaux de neurones, embeddings, modèles de langage (LLMs), ML en production, AutoML',
+      'Regression, classification, neural networks, embeddings, large language models (LLMs), production ML, AutoML'
+    ),
+    doc: ''
+  },
+];
 
 export const qualities = L(
   ['Pensée critique', 'Curiosité scientifique', 'Rigueur', 'Esprit d’équipe', 'Autonomie', 'Adaptabilité'],
