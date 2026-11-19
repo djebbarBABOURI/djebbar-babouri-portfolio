@@ -94,6 +94,27 @@ export const projects = [
     repo: 'https://github.com/djebbarBABOURI/projet-reseau-m1-informatique-quiznet.git',
     demo: ''
   },
+  {
+    name: L('Application de gestion des dépenses personnelles', 'Personal expense tracker'),
+    image: '/projects/expense-tracker.png',
+    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Python', 'FastAPI', 'scikit-learn', 'Docker'],
+    period: L('Automne 2026', 'Fall 2026'),
+    context: L('Projet personnel', 'Personal project'),
+    desc: {
+      fr: [
+        'Application full-stack de gestion des dépenses permettant d’enregistrer et de catégoriser les transactions, de suivre les budgets mensuels et de recevoir des alertes. Statistiques et projections calculées à l’aide de pipelines d’agrégation MongoDB.',
+        'Développement d’un microservice de machine learning (Python, scikit-learn) pour suggérer automatiquement des catégories à partir des descriptions (88,6 % de précision top-3), prévoir les dépenses mensuelles et détecter les transactions inhabituelles. API sécurisée par JWT, recherche, filtres, pagination, export CSV et déploiement Docker.',
+        '78 tests automatisés et intégration continue avec GitHub Actions.'
+      ],
+      en: [
+        'Full-stack expense management application to record and categorise transactions, track monthly budgets and receive alerts. Statistics and spending projections computed using MongoDB aggregation pipelines.',
+        'Built a machine-learning microservice (Python, scikit-learn) to automatically suggest expense categories from descriptions (88.6% top-3 accuracy), forecast monthly spending and detect unusual transactions. JWT authentication, server-side search, filtering, pagination, CSV export and Docker setup.',
+        '78 automated tests and continuous integration with GitHub Actions.'
+      ]
+    },
+    repo: 'https://github.com/djebbarBABOURI/projet-Rylize.git',
+    demo: ''
+  },
 ]
 export const certifications = [
   {
