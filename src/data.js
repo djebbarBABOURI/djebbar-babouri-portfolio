@@ -166,7 +166,9 @@ export const languages = [L('Français (B2)', 'French (B2)'), L('Anglais (B1)', 
 export const T = {
   fr: {
     role: 'Étudiant en Master 2 Informatique · Intelligence Artificielle',
-    avail: 'Disponible pour un stage de fin d’études · dès fin mars 2027', unavail: 'Actuellement indisponible',
+    home: 'Accueil', menu: 'Menu', closeMenu: 'Fermer le menu', nav: 'Navigation principale', follow: 'Me suivre', sections: 'Sections', top: 'Haut de page', mail: 'Écrire par email', linkedinCta: 'Me contacter sur LinkedIn', rights: 'Étudiant en Master 2 Informatique (IA). Stage de fin d’études en Data, ML et IA.',
+    avail: 'Disponible pour un stage de fin d’études ', unavail: 'Actuellement indisponible',
+    duration: ' dès fin mars 2027',
     intro: ['Passionné par la Data Science et l’IA, je recherche un ', 'stage de fin d’études de 12 semaines minimum', ' en Data, Machine Learning ou Intelligence Artificielle.'],
     about: 'Profil', aboutText: 'J’ai commencé par le développement web full stack avant de me spécialiser en IA. Au CRIL, j’ai travaillé sur l’incertitude et la calibration des LLMs ; j’ai aussi développé des applications basées sur les LLMs (RAG, MCP, Ollama) et travaillé sur des modèles CNN.',
     skills: 'Compétences', contact: 'Me contacter', mobility: 'Localisation', region: 'Lens, France',
@@ -175,7 +177,9 @@ export const T = {
   },
   en: {
     role: 'Master’s 2 student in Computer Science · Artificial Intelligence',
-    avail: 'Available for an end-of-studies internship · from late March 2027', unavail: 'Currently unavailable',
+    home: 'Home', menu: 'Menu', closeMenu: 'Close menu', nav: 'Main navigation', follow: 'Follow me', sections: 'Sections', top: 'Back to top', mail: 'Send an email', linkedinCta: 'Contact me on LinkedIn', rights: 'Master’s 2 student in Computer Science (AI). End-of-studies internship in Data, ML and AI.',
+    avail: 'Available for an end-of-studies internship ', unavail: 'Currently unavailable',
+    duration: 'from late March 2027',
     intro: ['Passionate about Data Science and AI, I’m looking for an ', 'end-of-studies internship of at least 12 weeks', ' in Data, Machine Learning or Artificial Intelligence.'],
     about: 'Profile', aboutText: 'I started in full stack web development before specialising in AI. At CRIL, I worked on uncertainty and calibration of LLMs; I also built LLM-based applications (RAG, MCP, Ollama) and worked on CNN models.',
     skills: 'Skills', contact: 'Contact me', mobility: 'Location', region: 'Lens, France',

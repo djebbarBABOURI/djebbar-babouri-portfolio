@@ -12,7 +12,7 @@ export default function Fractal() {
         let zx = (x / W - 0.5) * 3.2, zy = (y / H - 0.5) * 2, i = 0
         while (zx * zx + zy * zy < 4 && i < 42) { [zx, zy] = [zx * zx - zy * zy + cx, 2 * zx * zy + cy]; i++ }
         const k = (y * W + x) * 4, v = i === 42 ? 0 : 40 + (i / 42) * 215
-        img.data[k] = v * 0.62; img.data[k + 1] = v * 0.36; img.data[k + 2] = v; img.data[k + 3] = 255
+        img.data[k] = v * 0.05; img.data[k + 1] = v * 0.72; img.data[k + 2] = v * 0.86; img.data[k + 3] = 255
       }
       ctx.putImageData(img, 0, 0); raf = 0
     }
