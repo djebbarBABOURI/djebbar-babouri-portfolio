@@ -63,7 +63,7 @@ export const projects = [
       en: ['Natural-language assistant using several MCP tools to explore 7,400 images of 37 pet breeds (Oxford-IIIT Pets). Personally built the MCP server and client, the web interface, the Ollama integration and CNN-based similar-image search.', 'Fine-tuned a pre-trained CNN: 89.2% top-1 and 99.0% top-5 accuracy, versus 70.9% and 92.8% when trained from scratch (5 seeds, 100 epochs).']
     },
     repo: 'https://github.com/djebbarBABOURI/Image-Search-Assistant/',
-    demo: ''
+    demo: '/projets-gifs/oxford_pets_demo.gif'
   },
 
   {
