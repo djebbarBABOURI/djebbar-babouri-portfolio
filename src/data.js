@@ -67,7 +67,7 @@ export const projects = [
   },
 
   {
-    name: L('Assistant de questions-réponses sur PDF', 'PDF question-answering assistant'), image: '/projects/pdf-qa.png', tags: ['React', 'Node.js', 'LangChain', 'Ollama', 'Pinecone', 'MongoDB'], period: L('Automne 2026', 'Fall 2026'),
+    name: L('Assistant de questions-réponses sur PDF', 'PDF question-answering assistant'), image: '/projects/pdf-qa.png', tags: ['RAG','React', 'Node.js', 'LangChain', 'Ollama', 'Pinecone', 'MongoDB'], period: L('Automne 2026', 'Fall 2026'),
     context: L('Projet personnel', 'Personal project'),
     desc: {
       fr: ['Assistant permettant d’interroger des PDF en langage naturel et d’obtenir des réponses accompagnées des pages sources, utilisé pour mes cours et la lecture d’articles scientifiques.', 'Architecture RAG : indexation des extraits dans Pinecone, génération par un LLM local via Ollama, conversations stockées dans MongoDB.'],
@@ -80,7 +80,7 @@ export const projects = [
   {
     name: L('QuizNet — Application de quiz multijoueur', 'QuizNet — Multiplayer quiz application'),
     image: '/projects/quiznet.png',
-    tags: ['C', 'Python', 'TCP/UDP', 'SQLite', 'Pthreads'],
+    tags: ['TCP/UDP', 'C', 'Python', 'SQLite', 'Pthreads'],
     period: L('Automne 2026', 'Fall 2026'),
     context: L('Projet en réseaux, Master 1 Informatique', 'Computer Networks project, Master’s 1 Computer Science'),
     desc: {
@@ -99,7 +99,7 @@ export const projects = [
   {
     name: L('Application de gestion des dépenses personnelles', 'Personal expense tracker'),
     image: '/projects/expense-tracker.png',
-    tags: ['React', 'Node.js', 'Express', 'MongoDB', 'Python', 'FastAPI', 'scikit-learn', 'Docker'],
+    tags: ['scikit-learn', 'React', 'Node.js', 'Express', 'MongoDB', 'Python', 'FastAPI', 'Docker'],
     period: L('Automne 2026', 'Fall 2026'),
     context: L('Projet personnel', 'Personal project'),
     desc: {
