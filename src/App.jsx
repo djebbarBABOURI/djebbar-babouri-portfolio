@@ -199,8 +199,23 @@ export default function App() {
                   {p.desc[lang].map((d) => <p key={d}>{d}</p>)}
                   <p className="tagrow">{p.tags.map((x) => <span key={x}>{x}</span>)}</p>
                   <p className="links">
-                    {p.repo && <a href={p.repo} target="_blank" rel="noreferrer">{t.code} <IArrow /></a>}
-                    {p.demo && <a href={p.demo} target="_blank" rel="noreferrer">{t.demo} <IArrow /></a>}
+                    {p.repo && (
+                      <a href={p.repo} target="_blank" rel="noreferrer">
+                        {t.code} <IArrow />
+                      </a>
+                    )}
+
+                    {p.demo && (
+                      <a href={p.demo} target="_blank" rel="noreferrer">
+                        {t.demo} <IArrow />
+                      </a>
+                    )}
+
+                    {p.visit && (
+                      <a href={p.visit} target="_blank" rel="noreferrer">
+                        {lang === 'fr' ? 'Visiter' : 'Visit'} <IArrow />
+                      </a>
+                    )}
                   </p>
                 </div>
               </article>
