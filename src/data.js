@@ -76,7 +76,7 @@ export const projects = [
     },
     repo: 'https://github.com/djebbarBABOURI/agentic-rag-pdf',
     demo: '/projets-gifs/agentic_rag_demo.gif',
-    visit: ''
+    visit: 'https://agentic-rag-pdf.vercel.app/'
   },
 
   {
